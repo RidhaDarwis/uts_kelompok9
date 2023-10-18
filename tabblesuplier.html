@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apotek PIPI</title>
+    <link rel="icon" type="png"
+    href="logo.png">
+    
+  <!-- Favicons -->
+  <link href="assets/img/logo.png" rel="icon">
+  <link href="assets/img/logo.png" rel="apple-touch-icon">
+
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,600;1,700&family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=Raleway:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+<body>
+    <header id="header" class="header d-flex align-items-center">
+        <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <!-- Uncomment the line below if you also wish to use an image logo -->
+            <!-- <img src="assets/img/logo.png" alt=""> -->
+            <h1>Kelompok 9<span>.</span></h1>
+          </a>
+          <nav id="navbar" class="navbar">
+            <ul>
+                <li><a href="index.html">Beranda</a></li>
+                <li><a href="data_obat.html">Obat</a></li>
+                <li><a href="alamatsupplier.html">Pembelian</a></li>
+                <li><a href="transaksi.html">Penjualan</a></li>
+                <li><a href="Admin.html">Admin</a></li>
+                <li><a href="tabblesuplier.html">Suplier</a></li>
+              </ul>
+          </nav><!-- .navbar -->
+          <i class="mobile-nav-toggle mobile-nav-show bi bi-list"></i>
+      <i class="mobile-nav-toggle mobile-nav-hide d-none bi bi-x"></i>
+
+    </div>
+  </header>
+            <div class="container search" style="padding-top: 30px;">
+                <div class="row">
+                    <div class="col-md-6">
+                        <button type="button" class="btn btn-primary" data-bs-toggle="modal"
+                            data-bs-target="#exampleModal">
+                            Tambah Supplier
+                        </button>
+                    </div>
+                    <div class="col-md-6 text-end">
+                        <form class="d-flex">
+                            <div class="input-group">
+                                <input class="form-control rounded" type="search" placeholder="Search">
+                                <button class="btn btn-outline-dark" type="submit">
+                                    <i class="bi bi-search"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+       
+        <!-- Akhir SearchBAR -->
+        <div class="row">
+            <div class="col-md-12 mb-3">
+                <div class="table-responsive mb-5 bg-body rounded" style="padding-top: 20px;">
+                    <table class="table table-success table-striped table-bordered table-hover table-shadow rounded">
+                        <tr align="center">
+                            <td><strong>No</strong></td>
+                            <td><strong>Nama Supplier</strong></td>
+                            <td><strong>Alamat</strong></td>
+                            <td><strong>Kota</strong></td>
+                            <td><strong>Telepon</strong></td>
+                        </tr>
+                        <tr>
+                            <th>1.</th>
+                            <td>PT. FELIV LESTARI</td>
+                            <td>Jl. Monumen Emmy Saelan Makassar</td>
+                            <td>Makassar</td>
+                            <td>081241422888</td>
+                        </tr>
+                        <tr>
+                            <th>2.</th>
+                            <td>PT. BINAYA JAYA</td>
+                            <td>Jl. Pelita Raya Block A-28-No.7</td>
+                            <td>Makassar</td>
+                            <td>(0411) 434831</td>
+                        </tr>
+                        <tr>
+                            <th>3.</th>
+                            <td>PT. ANTAR MITRA SEMBADA</td>
+                            <td>Jl.TumanurungNo.3B, RT. 02/RW.05</td>
+                            <td>Makassar</td>
+                            <td>(0411) 4207111</td>
+                        </tr>
+                        <tr>
+                            <th>4.</th>
+                            <td>PT. TRI SAPTA JAYA</td>
+                            <td>Jl. Ir.Sutami Pergudangan Parangloe Indah Blok</td>
+                            <td>Makassar</td>
+                            <td>12312013608</td>
+                        </tr>
+                        <tr>
+                            <th>5.</th>
+                            <td>PT. LENKO SURYA PERKASA</td>
+                            <td>Jl. Chairil Anwar 26(5)</td>
+                            <td>Makassar</td>
+                            <td>(0411) 3621709</td>
+                        </tr>
+                        <tr>
+                            <th>6.</th>
+                            <td>PT. SAMUDRA BERKAT SEHATI</td>
+                            <td>Jl. Poros Malino No. 77 B</td>
+                            <td>Makassar</td>
+                            <td>(0411) 882487</td>
+                        </tr>
+                        <tr>
+                            <th>7.</th>
+                            <td>PT. SAMUDRA BERKAT SEHATI</td>
+                            <td>Jl. Poros Malino No. 77 B</td>
+                            <td>Gowa</td>
+                            <td>(0411) 882487</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+        <!-- Akhir Table -->
+
+        <!-- Modal -->
+        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLabel">Tambahkan Data Suplier</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <div class="form-group">
+                            <label for="nama">Nama:</label>
+                            <input type="text" id="nama" name="nama" class="form-control" required><br>
+
+                            <label for="nomor">Alamat:</label>
+                            <input type="text" id="alamat" name="alamat" class="form-control" required><br>
+
+                            <label for="kota">Kota:</label>
+                            <input type="text" id="kota" name="kota" class="form-control" required><br>
+
+                            <label for="telepon">Telepon:</label>
+                            <input type="tel" id="telepon" name="telepon" class="form-control" required><br>
+                        </div>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-primary">Save changes</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Akhir Modal Tambah Data -->
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
